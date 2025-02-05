@@ -60,3 +60,21 @@ if answer == "b":
 else:
     print("Incorrect! The correct answer is B) while.\n")
 question_number += 1
+
+# Question 5: 
+print("Question", question_number, ": What will be the output of 'hello'.upper()?")
+print("A) hello")
+print("B) Hello")
+print("C) HELLO")
+print("D) HeLLo")
+answer = input("Your answer: ").strip().lower()
+if answer == "c":
+    print("Correct!\n")
+    score += 1
+else:
+    print("Incorrect! The correct answer is C) HELLO.\n")
+
+# Final Score
+print("Congratulations! You completed the quiz.")
+print("Your final score is:", score, "out of 5")
+
