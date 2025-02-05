@@ -19,4 +19,16 @@ else:
     print("Incorrect! The correct answer is C) str.\n")
 question_number += 1
 
-print("Congratulations! You completed the quiz.")
+# Question 2: 
+print("Question", question_number, ": What will be the output of print(10 // 3)?")
+print("A) 3.33")
+print("B) 3")
+print("C) 4")
+print("D) 10")
+answer = input("Your answer: ").strip().lower()
+if answer == "b":
+    print("Correct!\n")
+    score += 1
+else:
+    print("Incorrect! The correct answer is B) 3.\n")
+question_number += 1
